@@ -1,9 +1,6 @@
 body{
     background-color: #e0e0e0;
 }
-/* .container{
-    height:100vh
-} */
 .espacio{
     height: 100vh;
 } 
@@ -11,6 +8,10 @@ body{
     box-shadow: -11px 9px 28px 3px rgba(23,23,6,0.75);
     -webkit-box-shadow: -11px 9px 28px 3px rgba(23,23,6,0.75);
     -moz-box-shadow: -11px 9px 28px 3px rgba(23,23,6,0.75);
+}
+.entradas{
+    min-height: 100vh;
+    height: auto;
 }
 @media screen and (min-width: 1020px) {
     .sumate{
