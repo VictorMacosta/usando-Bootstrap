@@ -1,0 +1,23 @@
+body{
+    background-color: #e0e0e0;
+}
+.container{
+    height:100vh
+}
+.row{
+    height: 70vh;
+}
+.bordes{
+    box-shadow: -11px 9px 28px 3px rgba(23,23,6,0.75);
+    -webkit-box-shadow: -11px 9px 28px 3px rgba(23,23,6,0.75);
+    -moz-box-shadow: -11px 9px 28px 3px rgba(23,23,6,0.75);
+}
+@media screen and (min-width: 1020px) {
+    .container{
+        height: 100vh;
+    }
+    .sumate{
+        display: none;
+    }
+    
+}
