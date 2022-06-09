@@ -11,7 +11,7 @@
 </head>
 <body>
 <header class="bg-dark">
-    <h1 class="text-center text-light">probando bootstrap</h1>
+    <h1 class="text-center text-light pt-3">probando bootstrap</h1>
     <nav class="navbar navbar-expand-lg bg-dark p-2">
         <div class="container-fluid">
           <a class="navbar-brand text-light" href="#">Estamos contigo</a>
@@ -21,19 +21,19 @@
           <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active text-light" aria-current="page" href="index.html">Home</a>
+                <a class="nav-link active text-light animate" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active text-light" aria-current="page" href="chistes.html">chistes</a>
+                <a class="nav-link active text-light animate" aria-current="page" href="chistes.html">chistes</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active text-light" aria-current="page" href="eventos.html">eventos</a>
+                <a class="nav-link active text-light animate" aria-current="page" href="eventos.html">eventos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active text-light" aria-current="page" href="entradas.html">Entradas</a>
+                <a class="nav-link active text-light animate" aria-current="page" href="entradas.html">Entradas</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light" href="unetenos.html">unetenos</a>
+                <a class="nav-link text-light animate" aria-current="page" href="unetenos.html">unetenos</a>
               </li>
             </ul>
             <span class="navbar-text text-light">
@@ -44,41 +44,153 @@
       </nav> 
 </header>
 <main class="container">
-  <div class="row">
-    <div class="col-12 text-center  pt-5">
-      <h2>
-        Los mas chistosos
-      </h2>
+  <div class="row mt-1">
+    <div class="colum-lg-12 col-md-12 col-sm-12">
+      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="./img/teatro_colon1500x610.jpg" class="d-block w-100" alt="Teatro Colon">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="text-light fs-1">Teatro Colon</h5>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="./img/teatro_picadilly.jpg" class="d-block w-100" alt="Teatro Picadilly">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="text-light fs-1">Teatro Picadilly</h5>>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/teatro_comedia.jpg" class="d-block w-100" alt="Teatro de la Comedia">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="text-light fs-1">Teatro de la Comedia</h5>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </div>
-
   </div>
   <div class="row">
-    <div class="col-lg-4 col-md-6 col-sm-12 pt-5">
-      <h2>Apodo: xxxx</h2>
-      <img src="./img/images.png" alt="foto">
-      <h3>descripcion</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam magni exercitationem temporibus ratione culpa. Quidem atque voluptas sapiente pariatur, expedita dolor soluta, quod corporis illo quisquam voluptatum esse. Atque, sunt.</p>
+    <div class="row">
+      <div class="col-12 text-center py-5">
+        <h2>
+          Los mas chistosos
+        </h2>
+      </div>
     </div>
-    <div class="col-lg-4 col-md-6 col-sm-12 pt-5" >
-      <h2>Apodo: xxxx</h2>
-      <img src="./img/images.png" alt="foto">
-      <h3>descripcion</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis consequuntur modi amet nihil atque dignissimos animi nam error soluta placeat, blanditiis delectus excepturi nostrum, labore itaque sequi dolores iure voluptas!</p>
-    </div>
-    <div class="col-lg-4 col-md-6 col-sm-12 pt-5" >
-    <h2>Apodo: xxxx</h2>
-    <img src="./img/images.png" alt="foto">
-    <h3>descripcion</h3>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis consequuntur modi amet nihil atque dignissimos animi nam error soluta placeat, blanditiis delectus excepturi nostrum, labore itaque sequi dolores iure voluptas!</p>
-    </div>
-  <div class="sumate col-md-6 pt-5">
-    <h2>Quieres sumarte?</h2>
-    <a href="unetenos.html"><img src="./img/agg.png" alt="foto"></a>
-    <h3>Requisitos</h3>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis consequuntur modi amet nihil atque dignissimos animi nam error soluta placeat, blanditiis delectus excepturi nostrum, labore itaque sequi dolores iure voluptas!</p>
-
   </div>
-</div>
+  <div class="row">
+    <div class="col-lg-6">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="perfil">
+              <h2 class="apodo text-center">Apodo: xoxoxo</h2>
+              <img class="imagenes" src="./img/images.png" alt="foto">
+              <h3 class="descri text-center">descripcion</h3>
+              <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis consequuntur modi amet nihil atque dignissimos animi nam error soluta placeat, blanditiis delectus excepturi nostrum, labore itaque sequi dolores iure voluptas!</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="perfil">
+              <h2 class="apodo text-center">Apodo: ototot</h2>
+              <img class="imagenes" src="./img/images.png" alt="foto">
+              <h3 class="descri text-center">descripcion</h3>
+              <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis consequuntur modi amet nihil atque dignissimos animi nam error soluta placeat, blanditiis delectus excepturi nostrum, labore itaque sequi dolores iure voluptas!</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="perfil">
+              <h2 class="apodo text-center">Apodo: globo</h2>
+              <img class="imagenes" src="./img/images.png" alt="foto">
+              <h3 class="descri text-center">descripcion</h3>
+              <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis consequuntur modi amet nihil atque dignissimos animi nam error soluta placeat, blanditiis delectus excepturi nostrum, labore itaque sequi dolores iure voluptas!</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <div class="col">
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="card car__tamaño">
+              <div class="card-body d-flex flex-column">
+                <h6 class="d-block m-auto">Brasil</h6>
+                <p class="p-4 fs-5">
+                  Cansada de esperar al final de la fila para entrar al Arca de Noé, una pulga brinca de animal en animal para acercarse al frente. Finalmente aterriza en el lomo de un elefante.
+                  —¡Lo sabía! —le dice el paquidermo, irritado, a su pareja—. ¡Ya empezaron con los empujones!</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card car__tamaño">
+              <div class="card-body d-flex flex-column">
+                <h6 class="d-block m-auto">Francia</h6>
+                <p class="p-4 fs-5">
+                  El presidente francés Nicolas Sarkozy visita una fábrica de acero. Para sorpresa del jefe, Sarkozy felicita a uno de sus empleados, Morton, con un efusivo abrazo. Lo mismo ocurre cuando el presidente Obama va de visita, y una vez más con Vladimir Putin. 
+                  Sin mostrarse impresionado, el jefe le dice a Morton:
+                  —Apuesto a que no conoces al Papa.
+                  Morton se encoge de hombros y responde, muy tranquilo:
+                  —Jugamos juntos al golf.
+                  El jefe toma la respuesta como una afrenta personal y paga los pasajes de ambos al Vaticano. 
+                  Durante una bendición papal, Morton se escabulle, y al poco rato reaparece al lado del Papa. Dos hombres chinos golpean suavemente al jefe en el hombro y le preguntan:
+                  —¿Quién es el hombre de blanco que está de pie junto a Morton?
+                  </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card car__tamaño">
+              <div class="card-body d-flex flex-column">
+                <h6 class="d-inline-block m-auto">Noruega</h6>
+                <p class="p-4 fs-5">
+                  Una mujer frota una lámpara y aparece un genio.
+                  —Eres una buena mujer, así que te concederé un deseo —dice el genio.
+                  —¿Ves ese gato? Es la única compañía que tengo, pero me gustaría tener a un hombre guapo y fuerte a mi lado—dice la mujer.
+                  El genio acepta y, ¡puf!, el gato se convierte en un hombre parecido a Brad Pitt, con los músculos abdominales marcados. La mujer salta a su regazo y lo cubre de besos. 
+                  —¿Tienes algo que decir antes de que hagamos el amor? —le pregunta.
+                  —Sí —responde el hombre—, apuesto a que desearías no haberme castrado la semana pasada.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
 </main>
 <footer class="pt-5">
   <nav class="navbar navbar-expand-lg bg-dark p-2">
@@ -101,7 +213,15 @@
   </nav>
 
 </footer>
+<!-- <h2>Apodo: xxxx</h2>
+<img src="./img/images.png" alt="foto">
+<h3>descripcion</h3>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis consequuntur modi amet nihil atque dignissimos animi nam error soluta placeat, blanditiis delectus excepturi nostrum, labore itaque sequi dolores iure voluptas!</p> -->
+
+<!--  -->
+
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
 </body>
 </html>

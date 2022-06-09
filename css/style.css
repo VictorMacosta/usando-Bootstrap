@@ -17,6 +17,41 @@ body{
     min-height: 100vh;
     height: auto;
 }
+.imagenes {
+    width: 250px;
+    margin:auto;
+    display:block;
+}
+.perfil {
+    padding-top: 15px;
+    background-color: coral;
+    border-radius: 5px;
+    height: 430px;
+
+}
+.car__tamaño {
+    height: 430px;
+    background-color: coral;
+}
+.animate:hover{
+    background-color:#727224;
+    color:#75751a;
+}
+.movimiento:hover {
+    transform: scale(0.8);
+    transition: 0.7s;
+}
+.teatro {
+    background-color: #e0e076;
+}
+.txt:hover {
+    color:navy
+}
+
+
+
+
+
 @media screen and (min-width: 1020px) {
     .sumate{
         display: none;
