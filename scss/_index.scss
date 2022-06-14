@@ -1,0 +1,21 @@
+.animate{
+    font-size: 1.1rem;
+}
+.perfil{
+    background-color: $bg;
+    height: 430px;
+    img{
+        display: block;
+        margin: auto;
+    }
+    @media screen and (max-width:425px) {
+        img{
+                width:100px
+        }
+    }
+}
+.car__tamaño{
+    background-color: $bg;
+    height: 430px;
+    border-radius: 0;
+}

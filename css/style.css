@@ -1,60 +1,52 @@
-body{
-    background-color: #e0e0e0;
-}
-.espacio{
-    height: 100vh;
-} 
-.bordes{
-    box-shadow: -11px 9px 28px 3px rgba(23,23,6,0.75);
-    -webkit-box-shadow: -11px 9px 28px 3px rgba(23,23,6,0.75);
-    -moz-box-shadow: -11px 9px 28px 3px rgba(23,23,6,0.75);
-}
-.entradas{
-    min-height: 100vh;
-    height: auto;
-}
-.eventos{
-    min-height: 100vh;
-    height: auto;
-}
-.imagenes {
-    width: 250px;
-    margin:auto;
-    display:block;
-}
+@charset "UTF-8";
+.animate {
+  font-size: 1.1rem; }
+
 .perfil {
-    padding-top: 15px;
-    background-color: coral;
-    border-radius: 5px;
-    height: 430px;
+  background-color: #8bc0ee;
+  height: 430px; }
+  .perfil img {
+    display: block;
+    margin: auto; }
+  @media screen and (max-width: 425px) {
+    .perfil img {
+      width: 100px; } }
 
-}
 .car__tamaño {
-    height: 430px;
-    background-color: coral;
-}
-.animate:hover{
-    background-color:#727224;
-    color:#75751a;
-}
-.movimiento:hover {
-    transform: scale(0.8);
-    transition: 0.7s;
-}
-.teatro {
-    background-color: #e0e076;
-}
-.txt:hover {
-    color:navy
-}
+  background-color: #8bc0ee;
+  height: 430px;
+  border-radius: 0; }
 
+.eventos div p {
+  font-size: 1.1rem; }
 
+.eventos__bg {
+  background-color: #8bc0ee; }
 
+@media screen and (max-width: 425px) {
+  .movimiento {
+    width: 11rem; }
+    .movimiento img {
+      width: 150px;
+      display: block;
+      margin: auto;
+      padding-top: 1rem; }
+    .movimiento p {
+      display: none; } }
 
+.entradas {
+  min-height: 600px;
+  height: 100vh; }
 
-@media screen and (min-width: 1020px) {
-    .sumate{
-        display: none;
-    }
-    
-}
+.unetenos {
+  min-height: 600px;
+  height: 100vh; }
+
+.espacio {
+  background-color: #8bc0ee;
+  margin-top: 8rem;
+  padding: 3rem; }
+
+body {
+  background-color: #e0e0e0e0;
+  font-family: 'Times New Roman', Times, serif; }

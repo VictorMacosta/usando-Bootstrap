@@ -1,0 +1,26 @@
+.eventos{
+    div{
+        p{
+            font-size: 1.1rem;
+        }
+    }
+}
+.eventos__bg{
+    background-color: 
+    $bg;
+}
+@media screen and (max-width:425px) {
+    .movimiento{
+        width: 11rem;
+        img{
+            width: 150px;
+            display: block;
+            margin: auto;
+            padding-top: 1rem;
+        }
+        p{
+            display: none;
+        }
+    }
+    }
+        
