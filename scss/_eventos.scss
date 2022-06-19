@@ -1,3 +1,14 @@
+@mixin carrusel($display, $margin, $width, $height) {
+    display: $display;
+    margin: $margin;
+    width: $width;
+    height: $height;
+}
+@mixin imgzises ($width, $display, $margin){
+    width: $width;
+    display: $display;
+    margin: $margin;
+}
 .eventos{
     div{
         p{
@@ -9,18 +20,10 @@
     background-color: 
     $bg;
 }
-@media screen and (max-width:425px) {
-    .movimiento{
-        width: 11rem;
-        img{
-            width: 150px;
-            display: block;
-            margin: auto;
-            padding-top: 1rem;
-        }
-        p{
-            display: none;
-        }
+
+.carrusel__eventos{
+    @include carrusel(block, auto, 500px, 300px)
+    .imagenes{
+        @include imgzises(150px, block, auto)
     }
-    }
-        
+}

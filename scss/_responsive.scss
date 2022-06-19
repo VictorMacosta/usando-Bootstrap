@@ -1,0 +1,25 @@
+@mixin imgmobile ($width) {
+    width: $width;
+}
+@mixin carruselmobile ($width, $height) {
+    width: $width;
+    height: $height;
+}
+@media screen and (max-width:425px) {
+    .perfil{
+        img{
+            @include imgmobile(90px)
+        }
+    }
+    .carrusel__eventos{
+        display: block;
+        margin: auto;
+        @include carruselmobile(380px, 250px)
+    }
+    .carrusel__eventos{
+        .imagenes{
+            @include imgmobile(90px)
+        }
+    }
+
+}
