@@ -11,13 +11,11 @@
             @include imgmobile(90px)
         }
     }
-    .eventos__bg{
-        padding: 0%;
-      }
     .carrusel__eventos{
         display: block;
         margin: auto;
-        @include carruselmobile(380px, 250px)
+        padding:13px 0px;
+        @include carruselmobile(330px, 250px)
     }
     .carrusel__eventos{
         .imagenes{
