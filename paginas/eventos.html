@@ -8,17 +8,20 @@
     <meta name="keywords" content="eventos teatrales, presentaciones, Teatro colon, Teatro Gran Rex, Teatro de la Comedia, Teatro Nacional Cervantes, Teatro Picadilly, los mejores chistes, humor, entradas, no te lo pierdas">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">    
     <title>Humor Teatral - Proximos Eventos- No te lo pierdas</title>
 </head>
 <body>
     <header class="bg-dark">
-        <h1 class="text-center text-light pt-3">
+        <h1 class="text-center text-light pt-3" data-aos="zoom-in">
             Proximos Eventos
         </h1>
         <nav class="navbar navbar-expand-lg bg-dark p-2">
             <div class="container-fluid">
-              <a class="navbar-brand text-light" href="#">Estamos contigo</a>
+              <a class="navbar-brand text-light" data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine" href="#">Estamos contigo</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -37,7 +40,10 @@
                     <a class="nav-link active text-light animate" aria-current="page" href="unetenos.html">unetenos</a>
                   </li>
                 </ul>
-                <span class="navbar-text text-light">
+                <span class="navbar-text text-light" data-aos="fade-left"
+                data-aos-anchor="#example-anchor"
+                data-aos-offset="500"
+                data-aos-duration="500">
                   Todo... siendo humor
                 </span>
               </div>
@@ -45,7 +51,7 @@
           </nav> 
     </header>
     <main class="container eventos">
-        <div class="row py-4">
+        <div class="row py-4 text-light">
             <p>La risa ocurre inconscientemente: aunque podemos intentar inhibirla de manera consciente (no siempre con éxito), no podemos producirla; por esta razón es extremadamente difícil fingir la risa. Aunque es aún poco lo que sabemos sobre los mecanismos cerebrales precisos que son responsables por este proceso, sí sabemos, por ejemplo, que la risa tiene un importante rol social, ya que los seres humanos raramente ríen cuando están solos, e inclusive lo hacen en menor medida que hablar consigo mismos.</p>
             <p>En un estudio publicado en el año 2005, la función primaria de la risa no es expresarnos, sino inducir sentimientos positivos en otras personas, es decir, liberar las tensiones y fomentar un sentido de unidad en el grupo. Sumado a esto, la risa en los humanos es previa al lenguaje, quizás por millones de años. Esto indica que la risa habría tenido funciones evolutivas fundamentales, y que es, entre otras cosas, un mecanismo empático: es más fácil reír cuando otros ríen, y éste es el impulso en el origen de fenómenos como la epidemia de risa de Tanganica, una histeria colectiva que duró meses y afectó a miles de personas, y la razón detrás de las risas enlatadas de las series de televisión</p>
         </div>
@@ -53,7 +59,7 @@
 
         </div>
         <div class="row mb-4">
-            <h1 class="text-center pb-5">Ubicacion</h1>
+            <h1 class="text-center pb-5 text-light">Ubicacion</h1>
             <div class="accordion" id="accordionPanelsStayOpenExample">
                 <div class="accordion-item teatro">
                   <h2 class="accordion-header" id="panelsStayOpen-headingOne">
@@ -67,24 +73,35 @@
                         <div class="carousel-inner">
                           <div class="carousel-item active">
                             <div class="carrusel__eventos">
-                              <h2 class="apodo text-center">Apodo: ototot</h2>
-                              <img class="imagenes" src="../img/images.png" alt="foto">
-                              <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis consequuntur modi amet </p>
-                          </div>
-                          </div>
-                          <div class="carousel-item">
-                            <div class="carrusel__eventos">
-                              <h2 class="apodo text-center">Apodo: ototot</h2>
-                              <img class="imagenes" src="../img/images.png" alt="foto">
-                              <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis consequuntur modi amet </p>
-                          </div>
+                              <h2 class="apodo text-center">Franco Escamilla</h2>
+                              <img class="imagenes" src="../img/Franco-Escamilla.jpg" alt="foto">
+                              <h3 class="descri text-center">descripcion</h3>
+                              <p class="text-center">comediante, actor de doblaje, músico, filántropo, freestyler, Mexicano!</p>
+                            </div>
                           </div>
                           <div class="carousel-item">
                             <div class="carrusel__eventos">
-                              <h2 class="apodo text-center">Apodo: ototot</h2>
-                              <img class="imagenes" src="../img/images.png" alt="foto">
-                              <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis consequuntur modi amet </p>
+                              <h2 class="apodo text-center">Led Varela</h2>
+                              <img class="imagenes" src="../img/ledVarela.jpeg" alt="foto">
+                              <h3 class="descri text-center">descripcion</h3>
+                              <p class="text-center">comediante venezolano, conocido por su carrera de stand-up comedy.</p>
+                            </div>
                           </div>
+                          <div class="carousel-item">
+                            <div class="carrusel__eventos">
+                              <h2 class="apodo text-center">Ricardo Perez</h2>
+                              <img class="imagenes" src="../img/RicardoPerez.jpg" alt="foto">
+                              <h3 class="descri text-center">descripcion</h3>
+                              <p class="text-center">Comediante, actor, co-conductor de La Cotorrisa y entusiasta de los chilaquiles. El mejor comediante de CDMX</p>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <div class="carrusel__eventos">
+                              <h2 class="apodo text-center">Slobo</h2>
+                              <img class="imagenes" src="../img/slobo.jpg" alt="foto">
+                              <h3 class="descri text-center">descripcion</h3>
+                              <p class="text-center">Comediante, actor, conductor de La Cotorrisa.</p>
+                            </div>
                           </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -111,24 +128,35 @@
                         <div class="carousel-inner">
                           <div class="carousel-item active">
                             <div class="carrusel__eventos">
-                              <h2 class="apodo text-center">Apodo: ototot</h2>
-                              <img class="imagenes" src="../img/images.png" alt="foto">
-                              <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis consequuntur modi amet </p>
-                          </div>
-                          </div>
-                          <div class="carousel-item">
-                            <div class="carrusel__eventos">
-                              <h2 class="apodo text-center">Apodo: ototot</h2>
-                              <img class="imagenes" src="../img/images.png" alt="foto">
-                              <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis consequuntur modi amet </p>
-                          </div>
+                              <h2 class="apodo text-center">Franco Escamilla</h2>
+                              <img class="imagenes" src="../img/Franco-Escamilla.jpg" alt="foto">
+                              <h3 class="descri text-center">descripcion</h3>
+                              <p class="text-center">comediante, actor de doblaje, músico, filántropo, freestyler, Mexicano!</p>
+                            </div>
                           </div>
                           <div class="carousel-item">
                             <div class="carrusel__eventos">
-                              <h2 class="apodo text-center">Apodo: ototot</h2>
-                              <img class="imagenes" src="../img/images.png" alt="foto">
-                              <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis consequuntur modi amet </p>
+                              <h2 class="apodo text-center">Led Varela</h2>
+                              <img class="imagenes" src="../img/ledVarela.jpeg" alt="foto">
+                              <h3 class="descri text-center">descripcion</h3>
+                              <p class="text-center">comediante venezolano, conocido por su carrera de stand-up comedy.</p>
+                            </div>
                           </div>
+                          <div class="carousel-item">
+                            <div class="carrusel__eventos">
+                              <h2 class="apodo text-center">Ricardo Perez</h2>
+                              <img class="imagenes" src="../img/RicardoPerez.jpg" alt="foto">
+                              <h3 class="descri text-center">descripcion</h3>
+                              <p class="text-center">Comediante, actor, co-conductor de La Cotorrisa y entusiasta de los chilaquiles. El mejor comediante de CDMX</p>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <div class="carrusel__eventos">
+                              <h2 class="apodo text-center">Slobo</h2>
+                              <img class="imagenes" src="../img/slobo.jpg" alt="foto">
+                              <h3 class="descri text-center">descripcion</h3>
+                              <p class="text-center">Comediante, actor, conductor de La Cotorrisa.</p>
+                            </div>
                           </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -155,24 +183,35 @@
                         <div class="carousel-inner">
                           <div class="carousel-item active">
                             <div class="carrusel__eventos">
-                              <h2 class="apodo text-center">Apodo: ototot</h2>
-                              <img class="imagenes" src="../img/images.png" alt="foto">
-                              <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis consequuntur modi amet </p>
-                          </div>
-                          </div>
-                          <div class="carousel-item">
-                            <div class="carrusel__eventos">
-                              <h2 class="apodo text-center">Apodo: ototot</h2>
-                              <img class="imagenes" src="../img/images.png" alt="foto">
-                              <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis consequuntur modi amet </p>
-                          </div>
+                              <h2 class="apodo text-center">Franco Escamilla</h2>
+                              <img class="imagenes" src="../img/Franco-Escamilla.jpg" alt="foto">
+                              <h3 class="descri text-center">descripcion</h3>
+                              <p class="text-center">comediante, actor de doblaje, músico, filántropo, freestyler, Mexicano!</p>
+                            </div>
                           </div>
                           <div class="carousel-item">
                             <div class="carrusel__eventos">
-                              <h2 class="apodo text-center">Apodo: ototot</h2>
-                              <img class="imagenes" src="../img/images.png" alt="foto">
-                              <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis consequuntur modi amet </p>
+                              <h2 class="apodo text-center">Led Varela</h2>
+                              <img class="imagenes" src="../img/ledVarela.jpeg" alt="foto">
+                              <h3 class="descri text-center">descripcion</h3>
+                              <p class="text-center">comediante venezolano, conocido por su carrera de stand-up comedy.</p>
+                            </div>
                           </div>
+                          <div class="carousel-item">
+                            <div class="carrusel__eventos">
+                              <h2 class="apodo text-center">Ricardo Perez</h2>
+                              <img class="imagenes" src="../img/RicardoPerez.jpg" alt="foto">
+                              <h3 class="descri text-center">descripcion</h3>
+                              <p class="text-center">Comediante, actor, co-conductor de La Cotorrisa y entusiasta de los chilaquiles. El mejor comediante de CDMX</p>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <div class="carrusel__eventos">
+                              <h2 class="apodo text-center">Slobo</h2>
+                              <img class="imagenes" src="../img/slobo.jpg" alt="foto">
+                              <h3 class="descri text-center">descripcion</h3>
+                              <p class="text-center">Comediante, actor, conductor de La Cotorrisa.</p>
+                            </div>
                           </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -204,12 +243,16 @@
                   </li>
                 </ul>
                 <span class="navbar-text text-light">
-                  Pagina elaborada con bootstrap
+                  Se puede amar la risa
                 </span>
               </div>
             </div>
           </nav>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
