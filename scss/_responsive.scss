@@ -5,7 +5,7 @@
     width: $width;
     height: $height;
 }
-@media screen and (max-width:425px) {
+@media screen and (max-width:576px) {
     .perfil{
         img{
             @include imgmobile(90px)
