@@ -65,7 +65,9 @@
     width: 330px;
     height: 250px; }
   .carrusel__eventos .imagenes {
-    width: 90px; } }
+    width: 90px; }
+  .car__tamaño {
+    height: 500px; } }
 
 @media screen and (min-width: 578px) {
   .Error404 img {

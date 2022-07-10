@@ -25,6 +25,9 @@
             @include imgmobile(90px)
         }
     }
+    .car__tamaño{
+        height: 500px;
+    }
 
 }
 @media screen and (min-width:578px) {
