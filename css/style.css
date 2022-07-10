@@ -54,8 +54,10 @@
   padding: 3rem; }
 
 @media screen and (max-width: 576px) {
+  .buttonBg {
+    border-color: #F2A154; }
   .perfil img {
-    width: 90px; }
+    width: 180px; }
   .carrusel__eventos {
     display: block;
     margin: auto;
@@ -64,6 +66,15 @@
     height: 250px; }
   .carrusel__eventos .imagenes {
     width: 90px; } }
+
+@media screen and (min-width: 578px) {
+  .Error404 img {
+    width: 1300px; } }
+
+.Error404 {
+  background-size: cover; }
+  .Error404 h2 {
+    color: white; }
 
 body {
   background-color: #34373a;

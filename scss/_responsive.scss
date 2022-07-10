@@ -6,9 +6,12 @@
     height: $height;
 }
 @media screen and (max-width:576px) {
+    .buttonBg{
+        border-color: $bg;
+    }
     .perfil{
         img{
-            @include imgmobile(90px)
+            @include imgmobile(180px)
         }
     }
     .carrusel__eventos{
@@ -23,4 +26,11 @@
         }
     }
 
+}
+@media screen and (min-width:578px) {
+    .Error404{
+        img{
+            width: 1300px;
+        }
+    }
 }
